@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Andrea Solís Tejada">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora horas</title>
+</head>
+
+<body>
+    <noscript>
+        <h1>Esta página necesita JavaScript</h1>
+        <p>Por favor, active JavaScript</p>
+    </noscript>
+    <div id="principal">
+        <div>Hora de entrada <br>
+            <label>Hora</label>
+            <input type="number" id="horaEntrada" min="0" max="23">
+            <label>Minutos</label>
+            <input type="number" id="minutosEntrada" min="0" max="59">
+        </div>
+        <div>Hora de salida <br>
+            <label>Hora</label>
+            <input type="number" id="horaSalida" min="0" max="23">
+            <label>Minutos</label>
+            <input type="number" id="minutosSalida" min="0" max="59">
+        </div>
+        <div>Total <br>
+            <label>Horas</label>
+            <input type="number" id="horaTotal" min="0" max="23">
+            <label>Minutos</label>
+            <input type="number" id="minutosTotal" min="0" max="59">
+        </div>
+    </div>
+    <input type="button" value="Calcular" id="calcularHoras">
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

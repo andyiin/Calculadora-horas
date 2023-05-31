@@ -1,0 +1,55 @@
+#principal {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;    
+    margin: 20px;
+}
+
+#principal div {
+    flex-direction: column;
+}
+
+#principal > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #4caf9e;
+    font-weight: bold;
+}
+
+body > input[type=button] {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    background-color: #4caf9e;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+body > input[type=button]:hover {
+    background-color: #156d5e;
+}
+
+#horaTotal{
+    pointer-events: none;
+}
+
+#minutosTotal{
+    pointer-events: none;
+}
+
+input[type="number" i] {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #4caf9e;
+}
